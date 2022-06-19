@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/TesteTarget/main.csproj",
+      "projectUniqueName": "/home/runner/TesteTargetRibeiraoPreto/main.csproj",
       "projectName": "main",
-      "projectPath": "/home/runner/TesteTarget/main.csproj",
+      "projectPath": "/home/runner/TesteTargetRibeiraoPreto/main.csproj",
       "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/TesteTarget/obj/",
+      "outputPath": "/home/runner/TesteTargetRibeiraoPreto/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/runner/.nuget/NuGet/NuGet.Config"
