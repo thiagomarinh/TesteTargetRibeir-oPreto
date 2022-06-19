@@ -29,7 +29,11 @@ class Program
 
 
     //QUESTÂO 04
+    // Os dois veiculos estãrão a mesma distancia de ribeirão preto, pois independe da velocidade dos dois, do tempo parado e da distancia das duas cidades.
+
+
     fibonacci();
+    Console.WriteLine(" Abaixo Resposta referente a Questao 05");
     inverter();
     
   }
@@ -51,22 +55,20 @@ class Program
     int j = 1;
     int x = 0;
     int soma;
+    int i = 0;
     Console.WriteLine("Digite um numero para saber se está na sequencia de fibonacci: ");
     int n = int.Parse(Console.ReadLine());
 
-      for (int i = 0; i < 1000; i++)
+      while (i <= n)
       {
         soma = x + j;
         j = x;
         x = soma;
-          if (soma == n)
-          {
-            Console.WriteLine($"O numero {n} contem na sequencia!!!");
-          }
-          else
-          {
-            Console.WriteLine($"O numero {n} não contem na sequencia");
-          }
-      }
+        if (n == soma)
+        {
+          Console.WriteLine($"O numero {n} contem na sequencia!!!");
+        }
+        i++;
+    }
   }
 }
